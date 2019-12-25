@@ -1,0 +1,16 @@
+MY_CDPATH=.
+MY_CDPATH+=:$HOME
+[[ -d "$HOME/user" ]] && MY_CDPATH+=:$HOME/user
+MY_CDPATH+=:$HOME
+export CDPATH=$MY_CDPATH:$CDPATH
+
+export HISTTIMEFORMAT="%d/%m/%y %T"
+export HISTSIZE=-1
+export HISTFILSIZE=-1
+
+shopt -s autocd
+shopt -s cdspell
+shopt -s globstar
+shopt -s histreedit
+shopt -s histverify
+

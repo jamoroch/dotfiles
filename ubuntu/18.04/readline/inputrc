@@ -1,0 +1,4 @@
+TAB:menu-complete
+C-TAB:menu-complete-backward
+set menu-complete-display-prefix on
+set skip-completed-text on

@@ -1,0 +1,10 @@
+alias ..='cd ..'
+
+alias ls='ls -Fh --color=auto'
+alias l='ls -la'
+
+alias files='nohup nautilus ./  &> /dev/null &'
+
+alias ssh-config='cat $HOME/.ssh/config'
+
+alias grep='grep --color=auto'

@@ -1,0 +1,17 @@
+set nocompatible
+syntax enabled
+set path+=**
+set number relativenumber
+filetype plugin on
+"
+match ErrorMsg '\s\+$'
+map q <nop>
+cmap Q q
+
+set laststatus=2
+set shiftwidth=2
+set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [POS=%04l,%04v]
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
