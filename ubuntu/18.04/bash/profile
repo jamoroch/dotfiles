@@ -13,4 +13,4 @@ shopt -s cdspell
 shopt -s globstar
 shopt -s histreedit
 shopt -s histverify
-
+shopt -s extglob
